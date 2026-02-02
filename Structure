@@ -1,0 +1,17 @@
+cascadia-vlm-challenge/
+│
+├── README.md
+├── images/
+│   ├── player1_board.jpg
+│   ├── player2_board.jpg
+│   ├── player3_board.jpg
+│   └── wildlife_scoring_cards.jpg
+│
+├── analysis/
+│   ├── animal_counting.md
+│   ├── scoring_logic.md
+│
+├── notebook/
+│   └── cascadia_vlm_analysis.ipynb
+│
+└── assumptions.md
