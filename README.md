@@ -9,15 +9,10 @@ This repository contains my submission for the Vision–Language Model (VLM) Cha
 The objective of this challenge is to evaluate whether a Vision–Language reasoning system can accurately interpret the final state of a completed Cascadia board game from images and correctly compute final scores using the official wildlife scoring rules.
 
 Using only the provided board images and wildlife scoring cards, this work demonstrates:
-
 Visual interpretation of multi-player board states
-
 Identification and counting of wildlife tokens per player
-
 Extraction and application of official Cascadia wildlife scoring rules
-
 Transparent, rule-based score computation
-
 Final score comparison and winner determination
 
 The repository includes:
@@ -29,5 +24,15 @@ A reproducible Google Colab notebook with step-by-step reasoning
 Clear documentation of assumptions and scoring logic
 
 Final score breakdowns for all players
-
 The focus of this submission is correctness, interpretability, and reproducibility, rather than UI or automation.
+
+#vision-language-model
+#vlm
+#computer-vision
+#reasoning
+#board-games
+#cascadia
+#machine-learning
+#ai-reasoning
+#ml-scientist
+
