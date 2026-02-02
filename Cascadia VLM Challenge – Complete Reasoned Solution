@@ -1,0 +1,247 @@
+Cascadia VLM Challenge – Complete Reasoned Solution
+1. Interpreting the Wildlife Scoring Cards (from image)
+
+From the scoring card image you shared, the active wildlife cards are:
+
+🐻 Bear – “Grizzly Bears (Pairs)”
+
+Score 10 points per pair
+
+Bears must be adjacent
+
+Unpaired bears score 0
+
+🦌 Elk – “Roosevelt Elk (Formations)”
+
+Elk score in straight connected lines
+
+Scoring visible on card:
+
+Line of 2 → 2 points
+
+Line of 3 → 6 points
+
+Line of 4 → 9 points
+
+Elk may only score in one group
+
+🦅 Hawk – “Red-tailed Hawk (Connected)”
+
+Hawks score based on total connected hawks
+
+Scoring scale visible:
+
+2 → 5
+
+3 → 9
+
+4 → 12
+
+5 → 16
+
+6 → 20
+
+7 → 24
+
+8+ → 28
+
+🐟 Salmon – “Chinook Salmon (Runs)”
+
+Salmon must form unbroken runs
+
+Runs cannot branch
+
+Scoring:
+
+2 → 4
+
+3 → 7
+
+4 → 11
+
+5+ → 15
+
+Broken / isolated salmon score 0
+
+🦊 Fox – “Red Fox (Majority)”
+
+Each fox scores based on different adjacent animal types
+
+Per fox:
+
+1 unique neighbor → 1
+
+2 → 2
+
+3 → 3
+
+4 → 5
+
+5 → 7
+
+2. Identifying the Players
+
+From the three board images (left → right):
+
+Player 1 = Left board
+
+Player 2 = Middle board
+
+Player 3 = Right board
+
+3. Animal Counts per Player (Visual Counting)
+🔹 Player 1 (Left Board)
+Animal	Count
+Bear	4
+Elk	5
+Hawk	4
+Salmon	6
+Fox	3
+🔹 Player 2 (Middle Board)
+Animal	Count
+Bear	5
+Elk	6
+Hawk	3
+Salmon	5
+Fox	4
+🔹 Player 3 (Right Board)
+Animal	Count
+Bear	3
+Elk	4
+Hawk	5
+Salmon	4
+Fox	2
+4. Scoring Breakdown by Player
+🧮 Player 1 Scoring
+🐻 Bear
+
+4 bears → 2 adjacent pairs
+
+2 × 10 = 20
+
+🦌 Elk
+
+Longest straight formation = 3
+
+Score = 6
+
+🦅 Hawk
+
+4 connected hawks
+
+Score = 12
+
+🐟 Salmon
+
+One continuous run of 4
+
+Score = 11
+
+🦊 Fox
+
+Fox adjacency gives:
+
+Fox 1 → 3 neighbors = 3
+
+Fox 2 → 4 neighbors = 5
+
+Fox 3 → 2 neighbors = 2
+
+Total = 10
+
+✅ Player 1 Total
+20 + 6 + 12 + 11 + 10 = 59
+
+🧮 Player 2 Scoring
+🐻 Bear
+
+5 bears → only 2 valid pairs
+
+Score = 20
+
+🦌 Elk
+
+Longest straight line = 4
+
+Score = 9
+
+🦅 Hawk
+
+3 connected hawks
+
+Score = 9
+
+🐟 Salmon
+
+One run of 5
+
+Score = 15
+
+🦊 Fox
+
+Fox scoring:
+
+4 foxes with mixed adjacency
+
+Scores: 5 + 5 + 3 + 3
+
+Total = 16
+
+✅ Player 2 Total
+20 + 9 + 9 + 15 + 16 = 69
+
+🧮 Player 3 Scoring
+🐻 Bear
+
+3 bears → 1 pair
+
+Score = 10
+
+🦌 Elk
+
+Straight line of 3
+
+Score = 6
+
+🦅 Hawk
+
+5 connected hawks
+
+Score = 16
+
+🐟 Salmon
+
+Run of 3
+
+Score = 7
+
+🦊 Fox
+
+2 foxes:
+
+1st → 4 neighbors = 5
+
+2nd → 3 neighbors = 3
+
+Total = 8
+
+✅ Player 3 Total
+10 + 6 + 16 + 7 + 8 = 47
+
+5. Final Scores & Winner 🏆
+Player	Total Score
+Player 1	59
+Player 2	69 🏆
+Player 3	47
+🥇 Winner: Player 2
+6. Assumptions (Explicit & Honest)
+
+Only wildlife scoring was applied (no habitat scoring card visible)
+
+Bear adjacency interpreted strictly (edge-touching only)
+
+Salmon runs treated as non-branching
+
+Fox adjacency counts only unique animal types
+
+Board orientation normalized mentally (rotation corrected)
